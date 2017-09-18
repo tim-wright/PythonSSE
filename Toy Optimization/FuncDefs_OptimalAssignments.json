@@ -1,0 +1,16 @@
+{
+    "Functions" : [
+        {
+            "Id" : 0,
+            "Name" : "OptimalAssignments",
+            "Type" : 2,
+            "ReturnType": 0,
+            "Params" : {"PersonID" : 1,
+                    "Train Capacity" : 1,
+                    "Plane Capacity" : 1,
+                    "Bus Capacity" : 1,
+                    "Boat Capacity" : 1
+                }
+        }
+    ]
+}
