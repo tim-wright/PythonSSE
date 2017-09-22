@@ -1,0 +1,9 @@
+{
+	"name" : "inputVariable",
+	"description" : "text input for modify varible ",
+	"icon" : "",
+	"type" : "visualization",
+	"version": "0.0.1",
+	"preview" : "inputvariable.png",
+	"author": "Loris Lombardo"
+}

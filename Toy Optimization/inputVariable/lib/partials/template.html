@@ -1,0 +1,22 @@
+<div class = "bootstrap_inside " qv-extension>
+	<div class = "row">
+		<label class = "col-md-4" for="input-{{layout.props.variableName}}" >{{layout.props.variableTitle}}</label>
+		<div class = "col-md-8">
+			<div  ng-class="{'input-group': layout.props.preText || layout.props.postText}" >
+			  <span ng-if = "layout.props.preText" class="input-group-addon">{{layout.props.preText}}</span>
+			  <input 
+			  	type="{{layout.props.variableType}}" 
+			  	id = "input-{{layout.props.variableName}}" 
+			  	ng-model = "variableValue" 
+			  	class="form-control" 
+			  	aria-label="{{layout.props.variableDesc}}" 
+			  	title = "{{layout.props.variableDesc}}" 
+			  	placeholder = "{{layout.props.variableDesc}}"
+			  	ng-disabled = "layout.props.disabled"
+			  	ng-blur = "changeVar()"
+			  	ng-keypress = "charInput($event)">
+			  <span ng-if = "layout.props.postText" class="input-group-addon">{{layout.props.postText}}</span>
+			</div>
+		</diV>
+	</div>
+</div>

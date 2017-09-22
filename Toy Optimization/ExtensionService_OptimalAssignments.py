@@ -33,8 +33,7 @@ class ExtensionService(SSE.ConnectorServicer):
         log_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logger.config')
         logging.config.fileConfig(log_file)
         logging.info('Logging enabled')
-        
-        
+
         ## helper function reads in data a single time and binds it to the ExtensionService Instance (so that it doesn't have to be loaded every time function is called)
         def bind_data(self):
             data_directory = os.path.dirname(os.path.abspath(__file__))

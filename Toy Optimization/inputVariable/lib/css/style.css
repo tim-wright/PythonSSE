@@ -1,0 +1,7 @@
+/* Styles for inputVariable */
+
+/* Recommended pattern for styling your objects */
+.qv-object-inputvariable .hello-world {
+  color:#333;
+  font-weight:bold;
+}
