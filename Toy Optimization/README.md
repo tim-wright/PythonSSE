@@ -20,4 +20,6 @@ An example of some **Employee Preferences** look like the following:
 | ...          | ...   | ...   | ...   | ...    |
 
 ## Solution
-This can be formulated as a simple **Integer Program**. Formulation of said LP to be added at a later date.
+This can be formulated as a simple **Integer Program**. The formulation for the problem is below.
+
+![](OptimizationFormulation.gif?raw=true "Title")
